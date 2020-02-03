@@ -7,15 +7,20 @@ Basic Search Filters
 ```
 #port: Search by specific port
 example: port:21
-
+```
+```
 #ssl: finding ssl certificates
 example: ssl:"target"
-
+```
+```
 #net: Search based on an IP/CIDR
 example : net:210.214.0.0/16
-
+```
+```
 #hostname: Locate devices by hostname
 example: hostname:"ethz.ch"
+```
+![Hostname_shodan](https://github.com/TheLeopardsH/Shodan/blob/master/hostname.PNG)
 
 #City: Locate devices by city
 example:  city:"Islamabad"
