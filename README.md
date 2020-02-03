@@ -15,7 +15,7 @@ example: ssl:"target"
 example : net:210.214.0.0/16
 
 #hostname: Locate devices by hostname
-example hostname:"ethz"
+example: hostname:"ethz.ch"
 
 #City: Locate devices by city
 example:  city:"Islamabad"
@@ -40,7 +40,10 @@ before/after: Timeframe delimiter
 hash: Search based on banner hash
 
 has_screenshot:true Filter search based on a screenshot being present
-
+example: has_Screenshot:true country:"US"
 title: Search based on text within the title
 example: title:"citrix gateway"
 ``` 
+
+
+
