@@ -8,14 +8,17 @@ Basic Search Filters
 #port: Search by specific port
 example: port:21
 ```
+~[](https://github.com/TheLeopardsH/Shodan/blob/master/port.PNG)
 ```
 #ssl: finding ssl certificates
 example: ssl:"target"
 ```
+![](https://github.com/TheLeopardsH/Shodan/blob/master/sl.PNG)
 ```
 #net: Search based on an IP/CIDR
 example : net:210.214.0.0/16
 ```
+![](https://github.com/TheLeopardsH/Shodan/blob/master/net.PNG)
 ```
 #hostname: Locate devices by hostname
 example: hostname:"ethz.ch"
@@ -50,7 +53,7 @@ os:"windows 10"
 org: Search by organization
 example org:nestle
 ```
-![]()
+![](https://github.com/TheLeopardsH/Shodan/blob/master/org.PNG)
 before/after: Timeframe delimiter
 
 hash: Search based on banner hash
@@ -61,8 +64,9 @@ example: has_Screenshot:true country:"US"
 ![](https://github.com/TheLeopardsH/Shodan/blob/master/has_screenshot.PNG)
 ```
 title: Search based on text within the title
-example: title:"citrix gateway"
+example: title:"tesla"
 ``` 
+~[](https://github.com/TheLeopardsH/Shodan/blob/master/title.PNG)
 
 
 
