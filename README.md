@@ -1,5 +1,6 @@
 # Shodan
 For Github syntax: https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax
+
 Filters for Shodan Search engine to find vulnerbilities devices connected to internet
 
 Basic Search Filters
@@ -7,7 +8,7 @@ Basic Search Filters
 #port: Search by specific port
 example: port:21
 
-#ssl: findid ssl certificates
+#ssl: finding ssl certificates
 example: ssl:"target"
 
 #net: Search based on an IP/CIDR
@@ -15,7 +16,6 @@ example : net:210.214.0.0/16
 
 #hostname: Locate devices by hostname
 example hostname:"ethz"
-
 
 #City: Locate devices by city
 example:  city:"Islamabad"
