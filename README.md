@@ -5,15 +5,30 @@ Filters for Shodan Search engine to find vulnerbilities devices connected to int
 Basic Search Filters
 ```
 port: Search by specific port
+
 ssl: findid ssl certificates
-example: ssl:"target"
+example: ssl:""
 
 net: Search based on an IP/CIDR
-hostname: Locate devices by hostname
+example : net:210.214.0.0/16
+
+#hostname: Locate devices by hostname
+example hostname:"ethz"
+
 os: Search by Operating System
-city: Locate devices by city
-country: Locate devices by country
-geo: Locate devices by coordinates
+
+#City: Locate devices by city
+example:  city:"Islamabad"
+
+#Country: Locate devices by country
+example: country:"PK"
+
+#geo: Locate devices by coordinates
+example: geo:"33.6429,72.9927"   //33.6429° N, 72.9927° E
+
+#server:For finding servers
+example: server: "gws"
+
 org: Search by organization
 before/after: Timeframe delimiter
 hash: Search based on banner hash
