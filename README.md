@@ -59,6 +59,7 @@ has_screenshot:true Filter search based on a screenshot being present
 example: has_Screenshot:true country:"US"
 ```
 ![](https://github.com/TheLeopardsH/Shodan/blob/master/has_screenshot.PNG)
+```
 title: Search based on text within the title
 example: title:"citrix gateway"
 ``` 
