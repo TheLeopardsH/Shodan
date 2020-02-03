@@ -21,31 +21,44 @@ example : net:210.214.0.0/16
 example: hostname:"ethz.ch"
 ```
 ![Hostname_shodan](https://github.com/TheLeopardsH/Shodan/blob/master/hostname.PNG)
-
+```
 #City: Locate devices by city
 example:  city:"Islamabad"
-
+```
+![City](https://github.com/TheLeopardsH/Shodan/blob/master/city.PNG)
+```
 #Country: Locate devices by country
 example: country:"PK"
-
+```
+![](https://github.com/TheLeopardsH/Shodan/blob/master/country.PNG)
+```
 #geo: Locate devices by coordinates
 example: geo:"33.6429,72.9927"   //33.6429° N, 72.9927° E
-
+```
+![](https://github.com/TheLeopardsH/Shodan/blob/master/geo.PNG)
+```
 #server:For finding servers
 example: server: "gws"
-
+```
+![](https://github.com/TheLeopardsH/Shodan/blob/master/servers.PNG)
+```
 #os :search based on operating system
 os:"windows 10"
-
+```
+![](https://github.com/TheLeopardsH/Shodan/blob/master/os.PNG)
+```
 org: Search by organization
 example org:nestle
-
+```
+![]()
 before/after: Timeframe delimiter
 
 hash: Search based on banner hash
-
+```
 has_screenshot:true Filter search based on a screenshot being present
 example: has_Screenshot:true country:"US"
+```
+![](https://github.com/TheLeopardsH/Shodan/blob/master/has_screenshot.PNG)
 title: Search based on text within the title
 example: title:"citrix gateway"
 ``` 
